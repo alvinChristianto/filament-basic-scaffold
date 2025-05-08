@@ -1,28 +1,33 @@
-# Yuli Kembar
+# BASIC FILAMENT TEMPLATE
 
-Filament for Laundry, AC and Sparepart POS
+USE THIS TEMPLATE :
+ - [x] bezhansalleh/filament-shield
+ - [x] pxlrbt/filament-excel
 
+
+- [x] Venus
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip install foobar
+composer install and npm install
 ```
 
 ## Usage
 
-```python
-import foobar
+```FILAMENT COMMAND
+php artisan migrate:fresh
 
-# returns 'words'
-foobar.pluralize('word')
+php artisan db:seed
 
-# returns 'geese'
-foobar.pluralize('goose')
+php artisan shield:setup
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+php artisan make:filament-user
+
+php artisan shield:generate --all
+
+php artisan shield:super-admin
 ```
 
 ## Contributing
