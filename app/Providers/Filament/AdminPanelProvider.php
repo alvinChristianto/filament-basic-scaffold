@@ -28,15 +28,15 @@ class AdminPanelProvider extends PanelProvider
             ->sidebarCollapsibleOnDesktop(true)
             ->id('admin')
             ->path('admin')
-            ->brandName('Yuli Sistem')
-            ->favicon(asset('logo.JPG'))
+            ->brandName('Testing for Youtube')
+            // ->favicon(asset('logo.JPG'))
             ->login()
             ->font('Roboto')
             ->colors([
-                'primary' => Color::Green,
+                'primary' => Color::Blue,
                 'danger' => Color::Rose,
                 'gray' => Color::Gray,
-                'info' => Color::Blue,
+                'info' => Color::Green,
                 'success' => Color::Green,
                 'warning' => Color::Rose,
             ])
