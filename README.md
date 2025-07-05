@@ -3,9 +3,7 @@
 USE THIS TEMPLATE :
  - [x] bezhansalleh/filament-shield
  - [x] pxlrbt/filament-excel
-
-
-- [x] Venus
+ - [x] barryvdh/laravel-dompdf
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
